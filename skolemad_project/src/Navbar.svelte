@@ -6,36 +6,47 @@
   import Min_konto from "./Min_konto.svelte";
   import Tank_op from "./Tank_op.svelte";
   let page = "forside";
-
   export let open;
 </script>
 
-<div .navbar>
-  <div>
-    <div transition:fly={{ y: -15, delay: 50 * i }}><a href="#/forside" on:click={() => (page = "forside")}>Forside</a></div>
-    <div transition:fly={{ y: -15, delay: 50 * i }}>
-      <a href="#/bestil_mad" on:click={() => (page = "bestilmad")}>Bestil Mad</a
-      >
-      </div>
-    <p transition:fly={ y: -15, delay: 50 * i }> 
-      <a href="#/minkonto" on:click={() => (page = "minkonto")}>Min Konto</a>
-    </p>
-    <p transition:fly={ y: -15, delay: 50 * i }><a href="#/tankop" on:click={() => (page = "tankop")}>Tank op</a></p>
+{#if open}
+  <div class="navbar">
+    <a
+      transition:fly={{ y: -15, delay: 50 }}
+      href="#/forside"
+      on:click={() => (page = "forside")}>Forside</a
+    >
+    <a
+      transition:fly={{ y: -15, delay: 60 }}
+      href="#/bestil_mad"
+      on:click={() => (page = "bestilmad")}>Bestil Mad</a
+    >
+    <a
+      transition:fly={{ y: -15, delay: 70 }}
+      href="#/minkonto"
+      on:click={() => (page = "minkonto")}>Min Konto</a
+    >
+
+    <a
+      transition:fly={{ y: -15, delay: 80 }}
+      href="#/tankop"
+      on:click={() => (page = "tankop")}>Tank op</a
+    >
   </div>
-  {#if page === "forside"}
-    <Forside />
-  {:else if page === "bestilmad"}
-    <Bestil_mad />
-  {:else if page === "minkonto"}
-    <Min_konto />
-  {:else if page === "tankop"}
-    <Tank_op />
-  {/if}
-      <hr transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
-</navbar>
+  <hr transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
+{/if}
+
+{#if page === "forside"}
+  <Forside />
+{:else if page === "bestilmad"}
+  <Bestil_mad />
+{:else if page === "minkonto"}
+  <Min_konto />
+{:else if page === "tankop"}
+  <Tank_op />
+{/if}
 
 <style>
-
   .navbar {
     text-align: center;
     font-size: 1.5em;
@@ -44,12 +55,13 @@
     padding-top: 0;
     color: #eef;
   }
-  div {
+  a {
     cursor: pointer;
+    display: block;
     width: max-content;
     margin: 1rem auto;
   }
-  p:hover {
+  a:hover {
     text-decoration: underline;
   }
 </style>
