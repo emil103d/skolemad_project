@@ -1,73 +1,62 @@
 <script>
-
 </script>
 
 <footer>
-    <div>
-        <h3>SERVICES</h3>
-        <ul>
-            <li>Branding</li>
-            <li>Design</li>
-            <li>Marketing</li>
-            <li>Advertisement</li>
-        </ul>
-    </div>
-    
-    <div>
-        <h3>COMPANY</h3>
-        <ul>
-            <li>About us</li>
-            <li>Contact</li>
-            <li>Jobs</li>
-            <li>Press kit</li>
-        </ul>
-    </div>
+  <div>
+    <h3>Skolemad.dk</h3>
+    <ul>
+      <li>Hejrevej Alle 25</li>
+      <li>2300 København S</li>
+      <li>CVR: 1234 5667</li>
+      <li>Mail: kontakt@skolemad.dk</li>
+    </ul>
+  </div>
 
-    <div>
-        <h3>LEGAL</h3>
-        <ul>
-            <li>Terms of use</li>
-            <li>Privacy policy</li>
-            <li>Cookie policy</li>
-        </ul>
-    </div>
+  <div>
+    <h3>Kundeservice</h3>
+    <ul>
+      <li>About us</li>
+      <li>Contact</li>
+      <li>Jobs</li>
+      <li>Press kit</li>
+    </ul>
+  </div>
 
-    <div>
-      <h3>LEGAL</h3>
-      <ul>
-          <li>Terms of use</li>
-          <li>Privacy policy</li>
-          <li>Cookie policy</li>
-      </ul>
+  <div>
+    <h3>Følg os på...</h3>
+    <ul>
+      <li>Terms of use</li>
+      <li>Privacy policy</li>
+      <li>Cookie policy</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>LEGAL</h3>
+    <ul>
+      <li>Terms of use</li>
+      <li>Privacy policy</li>
+      <li>Cookie policy</li>
+    </ul>
   </div>
 </footer>
 
 <style>
+  footer {
+    background-color: var(--secondary);
+    justify-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 
-    footer {
-        background-color: #3E4450;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        justify-items: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
+  ul li {
+    font-size: 0.6rem;
+    list-style: none;
+    list-style-position: outside;
+    line-height: 200%;
+  }
 
-    h3 {
-        font-size: 0.7rem;
-        color: gray
-    }
-
-    ul li {
-        font-size: 0.6rem;
-        color: white;
-        list-style: none;
-        list-style-position: outside;
-        line-height: 200%;
-    }
-
-    ul {
-        padding: 0;
-    }
-
+  ul {
+    padding: 0;
+  }
 </style>
