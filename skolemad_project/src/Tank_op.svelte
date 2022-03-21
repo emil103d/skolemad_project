@@ -10,5 +10,6 @@
   <p>h1 denne overskrift test</p>
   <div>h1 denne overskrift test</div>
 
-  <Primary_button>Klik mig nu</Primary_button>
+  <Primary_button type="primary">Primær</Primary_button>
+  <Primary_button type="secondary">sekundær</Primary_button>
 </body>
