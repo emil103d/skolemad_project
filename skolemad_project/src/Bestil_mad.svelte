@@ -75,14 +75,14 @@
           fre_ret="Pasta med Kødsovs"
         />
       </div>
-      <PrimaryButton />
+      <PrimaryButton>Bestil her</PrimaryButton>
     </div>
   </section>
 </main>
 
 <style>
   .frokost_menuer {
-    background-color: beige;
+    background-color: var(--grey);
     padding: 1rem;
   }
 
