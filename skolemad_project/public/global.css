@@ -12,7 +12,7 @@
   --txtcolor: #292828;
 
   /* Sizes */
-  --font_h1: clamp(1rem, 1.2rem + 2.75rem);
+  --font_h1: clamp(2rem, 1.6591rem + 1.4545vw, 2.75rem);
   --font_h2: clamp(2rem, 1.6591rem + 1.4545vw, 2.75rem);
   --font_h3: 2.188rem;
   --font_h4: 1.875rem;

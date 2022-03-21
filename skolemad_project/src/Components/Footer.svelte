@@ -3,12 +3,24 @@
 
 <footer>
   <div>
-    <h3>Skolemad.dk</h3>
+    <div>
+      <img src="" alt="" />
+      <h3>Skolemad.dk</h3>
+    </div>
     <ul>
       <li>Hejrevej Alle 25</li>
       <li>2300 København S</li>
       <li>CVR: 1234 5667</li>
       <li>Mail: kontakt@skolemad.dk</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Om skolemad.dk</h3>
+    <ul>
+      <li>Terms of use</li>
+      <li>Privacy policy</li>
+      <li>Cookie policy</li>
     </ul>
   </div>
 
@@ -30,15 +42,6 @@
       <li>Cookie policy</li>
     </ul>
   </div>
-
-  <div>
-    <h3>LEGAL</h3>
-    <ul>
-      <li>Terms of use</li>
-      <li>Privacy policy</li>
-      <li>Cookie policy</li>
-    </ul>
-  </div>
 </footer>
 
 <style>
@@ -47,13 +50,17 @@
     justify-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
   }
 
   ul li {
-    font-size: 0.6rem;
+    font-size: var(--font_bl);
     list-style: none;
     list-style-position: outside;
-    line-height: 200%;
+    line-height: 180%;
+    font-weight: 100;
   }
 
   ul {
