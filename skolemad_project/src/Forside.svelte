@@ -7,8 +7,10 @@
         <!-- Section 1 -->
         <section class="section_1_forside">
             <article class="section_1_container">
+                <div>
                 <h1>Velkommen til skolemad</h1>
                 <p>SkoleMad tilbyder et system til at styre fleksibel og rationel levering af skolemad, mad til firmaer, mad ud af huset, take-away, pensionistmad og meget mere. </p>
+                </div>
                 <div class="log_ind">
                     <h3>Log ind</h3>
                     <form action="log-ind">
@@ -41,7 +43,7 @@
             </div>
 
                 <div>
-                    <h4>Opret bruger</h4>
+                    <h4>Vælg skole & tilknyt børn</h4>
                     <p class="beskrivelse"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
             </div>
@@ -57,7 +59,7 @@
                 </div>
 
                 <div>
-                    <h4>Opret bruger</h4>
+                    <h4>Vælg madordning & betal</h4>
                     <p class="beskrivelse"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
             </div>
@@ -121,6 +123,7 @@
         padding: var(--spacing-15);
         padding-top: var(--spacing-30);
         padding-bottom: var(--spacing-30);
+        max-width: 350px;
     }
 
     button {
@@ -161,7 +164,7 @@
         width: 30px;
         position: relative;
         top: 90px;
-        left: 133px;
+        left: -10px;
         border-radius: 50px;
         color: white;
         display: grid;
@@ -177,6 +180,20 @@
     .badge_container {
         width: 100px;
         height: auto;
+        margin: 0 auto;
+    }
+
+    @media(min-width: 1079px)  { 
+
+        .section_1_forside {
+        }
+
+        .section_1_container {
+                min-width: 400px;
+                max-width: 500px;
+                display: flex;
+        }
+
     }
 
 
