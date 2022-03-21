@@ -1,18 +1,16 @@
-<script>
-  import Primary_button from "./Components/Primary_button.svelte";
-  import Footer from "./Components/Footer.svelte";
-</script>
-
-<body>
-  <h1>h1 denne overskrift test</h1>
-  <h2>h2 denne overskrift test</h2>
-  <h3>h1 denne overskrift test</h3>
-  <h4>h1 denne overskrift test</h4>
-  <p>h1 denne overskrift test</p>
-  <div>h1 denne overskrift test</div>
-
-  <Primary_button type="primary">Primær</Primary_button>
-  <Primary_button type="secondary">sekundær</Primary_button>
-</body>
+<section>
+  <h2>Min konto</h2>
+  <div class="Konto Oversigt">
+    <p>Kontooversigt</p>
+    <h4>Konto: Lars Larsen</h4>
+    <h4>Konto Nr.:3456654323</h4>
+    <h4>Tilmeldte Børn:</h4>
+    <ul>
+      <li>Mika</li>
+      <li>Felix</li>
+    </ul>
+    <h3>Balance: 350kr.</h3>
+  </div>
+</section>
 
 <Footer />
