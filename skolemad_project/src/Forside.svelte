@@ -183,15 +183,17 @@
         margin: 0 auto;
     }
 
-    @media(min-width: 1079px)  { 
+    @media(min-width: 810px)  { 
 
         .section_1_forside {
         }
 
         .section_1_container {
-                min-width: 400px;
-                max-width: 500px;
+                max-width: 810px;
                 display: flex;
+        }
+        .log_ind {
+            min-width: 350px;
         }
 
     }
