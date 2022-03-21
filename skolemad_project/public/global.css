@@ -59,6 +59,10 @@ body {
   --weight-regurlar: 400;
 }
 
+section {
+  max-width: 1200px;
+}
+
 /* Skrift */
 
 h1 {
