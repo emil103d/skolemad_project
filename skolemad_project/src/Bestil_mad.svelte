@@ -84,6 +84,7 @@
   .frokost_menuer {
     background-color: var(--grey);
     padding: 1rem;
+    justify-content: center;
   }
 
   .menuer {
