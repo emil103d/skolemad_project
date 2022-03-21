@@ -1,30 +1,34 @@
 <script>
-	export let name;
+  import Header from "./Header.svelte";
+  import Navbar from "./Navbar.svelte";
+  import Forside from "./Navbar.svelte";
+  import Bestil_mad from "./Bestil_mad.svelte";
+  import Min_konto from "./Min_konto.svelte";
+  import Tank_op from "./Tank_op.svelte";
+  import Footer from "./Footer.svelte";
+  let page = "forside";
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<body>
+  <Header />
+  <Navbar>
+    <a href="#/forside" on:click={() => (page = "forside")}>Forside</a>
+    <a href="#/bestil_mad" on:click={() => (page = "bestilmad")}>Bestil Mad</a>
+    <a href="#/minkonto" on:click={() => (page = "minkonto")}>Min Konto</a>
+    <a href="#/tankop" on:click={() => (page = "tankop")}>Tank op</a>
+  </Navbar>
+  {#if page === "forside"}
+    <Forside />
+  {:else if page === "bestilmad"}
+    <Bestil_mad />
+  {:else if page === "minkonto"}
+    <Min_konto />
+  {:else if page === "tankop"}
+    <Tank_op />
+  {/if}
+  <main />
+  <Footer />
+</body>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
 </style>
