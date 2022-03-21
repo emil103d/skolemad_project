@@ -1,7 +1,7 @@
 <script>
   import Header from "./Header.svelte";
   import Navbar from "./Components/Navbar.svelte";
-  import Forside from "./Components/Forside.svelte";
+  import Forside from "./Forside.svelte";
   import Bestil_mad from "./Bestil_mad.svelte";
   import Min_konto from "./Min_konto.svelte";
   import Tank_op from "./Tank_op.svelte";
