@@ -29,7 +29,8 @@
   .container {
     background: white;
     border-radius: var(--border-radius-sm);
-    width: 17rem;
+    min-width: 14rem;
+    max-width: 17rem;
     padding-top: 1rem;
   }
 
