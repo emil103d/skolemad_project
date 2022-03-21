@@ -1,11 +1,11 @@
 <script>
   import Header from "./Header.svelte";
-  import Navbar from "./Navbar.svelte";
-  import Forside from "./Navbar.svelte";
+  import Navbar from "./Components/Navbar.svelte";
+  import Forside from "./Components/Navbar.svelte";
   import Bestil_mad from "./Bestil_mad.svelte";
   import Min_konto from "./Min_konto.svelte";
   import Tank_op from "./Tank_op.svelte";
-  import Footer from "./Footer.svelte";
+  import Footer from "./Components/Footer.svelte";
   let page = "forside";
 </script>
 
