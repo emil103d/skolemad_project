@@ -17,18 +17,18 @@
       on:click={() => (page = "forside")}>Forside</a
     >
     <a
-      transition:fly={{ y: -15, delay: 60 }}
+      transition:fly={{ y: -15, delay: 70 }}
       href="#/bestil_mad"
       on:click={() => (page = "bestilmad")}>Bestil Mad</a
     >
     <a
-      transition:fly={{ y: -15, delay: 70 }}
+      transition:fly={{ y: -15, delay: 60 }}
       href="#/minkonto"
       on:click={() => (page = "minkonto")}>Min Konto</a
     >
 
     <a
-      transition:fly={{ y: -15, delay: 80 }}
+      transition:fly={{ y: -15, delay: 50 }}
       href="#/tankop"
       on:click={() => (page = "tankop")}>Tank op</a
     >
