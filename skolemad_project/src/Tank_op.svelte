@@ -1,5 +1,5 @@
 <script>
-  import Primary_button from "./Primary_button.svelte";
+  import Primary_button from "./Components/Primary_button.svelte";
 </script>
 
 <body>
