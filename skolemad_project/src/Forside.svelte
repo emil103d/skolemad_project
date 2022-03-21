@@ -1,12 +1,8 @@
+<script>
 
+</script>
 
 <body>
-
-    <!-- Header -->
-    <header> 
-        <div class="nav_test"></div>
-    </header>
-
     <main>
         <!-- Section 1 -->
         <section class="section_1_forside">
@@ -31,11 +27,6 @@
 
         </section>
     </main>
-
-    <!-- Footer -->
-    <footer> 
-        
-    </footer>
 </body>
 
 
