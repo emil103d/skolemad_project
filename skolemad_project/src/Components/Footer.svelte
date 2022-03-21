@@ -31,6 +31,15 @@
             <li>Cookie policy</li>
         </ul>
     </div>
+
+    <div>
+      <h3>LEGAL</h3>
+      <ul>
+          <li>Terms of use</li>
+          <li>Privacy policy</li>
+          <li>Cookie policy</li>
+      </ul>
+  </div>
 </footer>
 
 <style>
