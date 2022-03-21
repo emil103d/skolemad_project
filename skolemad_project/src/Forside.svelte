@@ -5,10 +5,10 @@
 <body>
     <main>
         <!-- Section 1 -->
-        <section class="section_1_forside">
+        <header class="section_1_forside">
             <article class="section_1_container">
                 <div>
-                <h1>Velkommen til skolemad</h1>
+                <h1>Velkommen til <br> skolemad</h1>
                 <p>SkoleMad tilbyder et system til at styre fleksibel og rationel levering af skolemad, mad til firmaer, mad ud af huset, take-away, pensionistmad og meget mere. </p>
                 </div>
                 <div class="log_ind">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </article>
-        </section>
+        </header>
 
 
         <!-- Section 2 -->
@@ -89,6 +89,10 @@
 
 <style>
     
+    
+    header {
+        padding: var(--spacing-20);
+    }
     section {
         padding: var(--spacing-20);
     }
@@ -96,7 +100,7 @@
     .section_1_forside {
         background-image: url(/img/madder.png);
         background-size: cover;
-        background-position: 40%;
+        background-position: 55%;
         height: 100vh;
         width: 100vw;
         display: grid;
@@ -109,7 +113,10 @@
         border-radius: var(--border-radius-sm);
         padding: var(--spacing-20);
         display: grid;
-        gap: var(--spacing-20)
+        gap: var(--spacing-20);
+        margin: 0 auto;
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.24) 6px 6px 2px;
     }
 
 
@@ -191,12 +198,31 @@
         .section_1_container {
                 max-width: 810px;
                 display: flex;
+                align-items: center;
+                padding: var(--spacing-40);
         }
         .log_ind {
             min-width: 350px;
         }
 
     }
+
+    @media(min-width: 1200px)  { 
+
+.section_1_forside {
+}
+
+.section_1_container {
+        max-width: 1000px;
+        display: flex;
+        padding: var(--spacing-80);
+}
+.log_ind {
+    min-width: 350px;
+    max-height: 225px;
+}
+
+}
 
 
 
