@@ -75,7 +75,7 @@
           fre_ret="Pasta med Kødsovs"
         />
       </div>
-      <PrimaryButton>Bestil her</PrimaryButton>
+      <PrimaryButton type="primary">Bestil her</PrimaryButton>
     </div>
   </section>
 </main>
