@@ -56,7 +56,7 @@ audio {
   margin: 0;
   box-sizing: border-box;
   font-family: var(--text);
-  color: --(--txtcolor;
+  color: var(--txtcolor;
 }
 
 body {
