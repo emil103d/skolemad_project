@@ -67,24 +67,27 @@ section {
 
 h1 {
   font-size: var(--font_h1);
+  font-weight: 200;
 }
 
 h2 {
   font-size: var(--font_h2);
+  font-weight: 200;
 }
 
 h3 {
   font-size: var(--font_h3);
+  font-weight: 100;
 }
 
 h4 {
   font-size: var(--font_h4);
-  font-weight: 200;
+  font-weight: 100;
 }
 
 p {
   font-size: var(--font-b);
-  font-weight: 200;
+  font-weight: 100;
 }
 
 /* .underoverskrift {
