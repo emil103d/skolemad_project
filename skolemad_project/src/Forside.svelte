@@ -48,6 +48,7 @@
     }
     .section_1_forside {
         background-image: url(img/madder.png);
+        background-size: cover;
     }
 
 
