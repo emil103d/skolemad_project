@@ -28,7 +28,7 @@
   .secondary {
     background-color: var(--secondary);
     border-radius: var(--border-radius-sm);
-    color: var(--primary);
+    color: var(--hvid);
     font-size: var(--font_knap);
     padding: 5px 20px;
     border-style: none;

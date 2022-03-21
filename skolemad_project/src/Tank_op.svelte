@@ -1,5 +1,6 @@
 <script>
   import Primary_button from "./Components/Primary_button.svelte";
+  import Footer from "./Components/Footer.svelte";
 </script>
 
 <body>
@@ -13,3 +14,5 @@
   <Primary_button type="primary">Primær</Primary_button>
   <Primary_button type="secondary">sekundær</Primary_button>
 </body>
+
+<Footer />
