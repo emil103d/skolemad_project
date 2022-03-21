@@ -29,7 +29,7 @@
   .container {
     background: white;
     border-radius: var(--border-radius-sm);
-    width: 20rem;
+    width: 17rem;
     padding-top: 1rem;
   }
 
