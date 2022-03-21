@@ -12,23 +12,18 @@
   --txtcolor: #292828;
 
   /* Sizes */
-  --font_xxl: clamp(5rem, 3.8182rem + 5.0424vw, 7.6rem);
-  --font_xl: clamp(3rem, 2.1818rem + 3.4909vw, 4.8rem);
-  --font_l: clamp(1.5rem, 1.2927rem + 0.8844vw, 1.956rem);
-  --font_md: 1.563rem;
-  --font_sm: 1.25rem;
-  --font_xs: 1rem;
-  --font_xxs: 0.8rem;
-
-  /* weight */
-  --weight-thin: 200;
-  --weight-regurlar: 400;
-  --weight-bold: 700;
+  --font_h1: clamp(1rem, 1.2rem + 2.75rem);
+  --font_h2: clamp(2rem, 1.6591rem + 1.4545vw, 2.75rem);
+  --font_h3: 2.188rem;
+  --font_h4: 1.875rem;
+  --font_b: 1.625rem;
+  --font_bl: 1.375rem;
+  --font_nav: 2.3rem;
+  --font_knap: 1, 188rem;
 
   /* border-radius */
-  --border-radius-sm: 1rem;
-  --border-radius-md: 20%;
-  --border-radius-lg: 30%;
+  --border-radius-sm: 15px;
+  --border-radius-md: 20px;
 
   /* Spacing */
   --spacing-10: 0.625rem;
@@ -56,37 +51,39 @@ audio {
   margin: 0;
   box-sizing: border-box;
   font-family: var(--text);
-  color: var(--txtcolor;
+  color: var(--txtcolor);
 }
 
 body {
   background-color: var(--bgcolor);
+  --weight-regurlar: 400;
 }
 
 /* Skrift */
 
 h1 {
-  font-size: var(--font_xxl);
+  font-size: var(--font_h1);
 }
 
 h2 {
-  font-family: var(--h1);
-  font-size: var(--font_xl);
-  letter-spacing: -0.02em;
-  font-weight: var(--weight-bold);
-  margin: 0;
+  font-size: var(--font_h2);
 }
 
 h3 {
-  font-size: var(--font_l);
-  font-weight: var(--weight-thin);
+  font-size: var(--font_h3);
+}
+
+h4 {
+  font-size: var(--font_h4);
+  font-weight: 200;
 }
 
 p {
-  font-size: var(--font-md);
+  font-size: var(--font-b);
+  font-weight: 200;
 }
 
-.underoverskrift {
+/* .underoverskrift {
   font-weight: var(--weight-bold);
 }
 
@@ -98,7 +95,7 @@ a {
   text-decoration: none;
   color: var(--darkgrey);
   font-size: var(--font_xxs);
-}
+} */
 
 a:hover {
   text-decoration: underline;
