@@ -1,6 +1,7 @@
 <script>
   import Hamburger from "svelte-hamburgers";
   import Navbar from "./Navbar.svelte";
+  import BigNav from "./Navbarbig.svelte";
   let open;
 </script>
 
@@ -10,23 +11,17 @@
   <div><Navbar bind:open /></div>
 {/if}
 
+<BigNav />
+
 <style>
   div {
     margin-bottom: 2rem;
   }
 
-  /* .bignav {
-    display: none;
-  } */
-
   @media (min-width: 800px) {
     .hamburger,
     .navbar {
       display: none;
-    }
-
-    .bignav {
-      display: block;
     }
   }
 </style>
