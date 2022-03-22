@@ -15,9 +15,18 @@
     margin-bottom: 2rem;
   }
 
+  /* .bignav {
+    display: none;
+  } */
+
   @media (min-width: 800px) {
-    .hamburger {
+    .hamburger,
+    .navbar {
       display: none;
+    }
+
+    .bignav {
+      display: block;
     }
   }
 </style>

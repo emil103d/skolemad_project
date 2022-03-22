@@ -45,14 +45,28 @@
   <Tank_op />
 {/if}
 
+<div class="bignav">
+  <div class="toppart">
+    <p>Opret Bruger</p>
+    <p>Log ind</p>
+  </div>
+
+  <div class="lowerpart">
+    <img src="" alt="" />
+    <div>
+      <p>Forældre</p>
+      <p>Skole</p>
+      <p>Leverandør</p>
+    </div>
+  </div>
+</div>
+
 <style>
   .navbar {
-    text-align: center;
-    font-size: 1.5em;
-    letter-spacing: 0.15em;
-    padding: 1em;
+    font-size: var(--font_b);
+    padding: 7rem 0;
     padding-top: 0;
-    color: #eef;
+    font-weight: 200;
   }
   a {
     cursor: pointer;
@@ -60,7 +74,19 @@
     width: max-content;
     margin: 1rem auto;
   }
-  a:hover {
+
+  .toppart {
+    background-color: var(--primary);
+    color: white;
+    font-size: var(--font_bl);
     text-decoration: underline;
+  }
+
+  .lowerpart {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hamburger {
   }
 </style>
