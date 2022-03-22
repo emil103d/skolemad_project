@@ -2,6 +2,7 @@
   import Hamburger from "svelte-hamburgers";
   import Navbar from "./Navbar.svelte";
   import BigNav from "./Navbarbig.svelte";
+  import NavBarLogin from "./NavbarLogin.svelte";
   let open;
 </script>
 
@@ -14,6 +15,9 @@
 <BigNav />
 
 <style>
+  .bignav {
+    display: none;
+  }
   div {
     margin-bottom: 2rem;
   }
@@ -22,6 +26,12 @@
     .hamburger,
     .navbar {
       display: none;
+    }
+  }
+
+  @media (min-width: 800px) {
+    .bignav {
+      display: block;
     }
   }
 </style>

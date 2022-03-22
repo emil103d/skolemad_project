@@ -12,3 +12,14 @@
     <h3>Balance: 350kr.</h3>
   </div>
 </section>
+
+<style>
+  .hamburger,
+  .navbar {
+    display: none;
+  }
+
+  .loginnav {
+    display: block;
+  }
+</style>

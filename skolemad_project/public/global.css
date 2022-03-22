@@ -108,3 +108,12 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+button {
+  background-color: var(--primary);
+  border-radius: var(--border-radius-md);
+  color: var(--hvid);
+  font-size: var(--font_knap);
+  padding: 10px 45px;
+  border-style: none;
+}
