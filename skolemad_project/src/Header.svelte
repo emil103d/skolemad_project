@@ -4,7 +4,7 @@
   let open;
 </script>
 
-<Hamburger bind:open --color="black" />
+<div class="hamburger"><Hamburger bind:open --color="black" /></div>
 
 {#if open}
   <div><Navbar bind:open /></div>
@@ -13,5 +13,11 @@
 <style>
   div {
     margin-bottom: 2rem;
+  }
+
+  @media (min-width: 800px) {
+    .hamburger {
+      display: none;
+    }
   }
 </style>

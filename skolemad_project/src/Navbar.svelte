@@ -35,7 +35,6 @@
   </div>
   <hr transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
 {/if}
-
 {#if page === "forside"}
   <Forside />
 {:else if page === "bestilmad"}

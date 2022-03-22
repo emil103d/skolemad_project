@@ -6,7 +6,7 @@
 
 <article class="container">
   <div class="title">
-    <h4>Måned: {month}</h4>
+    <h4>{month}</h4>
     <div class="barn">
       <p>{child1}</p>
       <label class="switch">
