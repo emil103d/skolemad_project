@@ -1,7 +1,11 @@
+<script>
+</script>
+
 <div class="bignav">
   <div class="toppart">
-    <p>Opret Bruger</p>
-    <p>Log ind</p>
+    <a href="#/bestil_mad" on:click={() => (page = "bestilmad")}>Opret bruger</a
+    >
+    <a href="#/bestil_mad" on:click={() => (page = "bestilmad")}>Log ind</a>
     <svg
       width="36"
       height="44"
@@ -81,11 +85,12 @@
     padding: 1rem 2rem;
   }
 
-  .toppart p {
+  .toppart a {
     color: white;
     font-size: var(--font_bl);
     text-decoration: underline;
     margin-top: 14px;
+    font-weight: 200;
   }
 
   .toppart svg {
@@ -112,15 +117,5 @@
     gap: 3rem;
     color: var(--sort);
     font-size: var(--font_b);
-  }
-
-  .bignav {
-    display: none;
-  }
-
-  @media (min-width: 800px) {
-    .bignav {
-      display: block;
-    }
   }
 </style>
