@@ -12,5 +12,3 @@
     <h3>Balance: 350kr.</h3>
   </div>
 </section>
-
-<Footer />
