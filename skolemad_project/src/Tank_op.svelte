@@ -1,3 +1,7 @@
+<script>
+  import Button from "./Components/Primary_button.svelte";
+</script>
+
 <section>
   <h2>Min konto</h2>
   <div class="kontooversigt">
@@ -117,13 +121,78 @@
   </div>
 </section>
 
-<section />
+<section>
+  <h2>Kontoudtog</h2>
+
+  <div>
+    <p>Vælg periode</p>
+    <div class="periode">
+      <p>Fra: 1/2-2022</p>
+      <p>Til: 31/3-2022</p>
+    </div>
+  </div>
+
+  <div class="knap">
+    <Button type="Primary">Se kontoudtog</Button>
+  </div>
+
+  <table>
+    <tr>
+      <th>Dato</th>
+      <th>Tekst</th>
+      <th>Beløb</th>
+      <th>Saldo</th>
+    </tr>
+    <tr>
+      <td>01/02-22</td>
+      <td>Mikka køb februar</td>
+      <td>350 kr.</td>
+      <td>75 kr.</td>
+    </tr>
+    <tr>
+      <td>01/02-22</td>
+      <td>Mikka køb februar</td>
+      <td>350 kr.</td>
+      <td>75 kr.</td>
+    </tr>
+    <tr>
+      <td>01/02-22</td>
+      <td>Mikka køb februar</td>
+      <td>350 kr.</td>
+      <td>75 kr.</td>
+    </tr>
+    <tr>
+      <td>01/02-22</td>
+      <td>Mikka køb februar</td>
+      <td>350 kr.</td>
+      <td>75 kr.</td>
+    </tr>
+    <tr>
+      <td>01/02-22</td>
+      <td>Mikka køb februar</td>
+      <td>350 kr.</td>
+      <td>75 kr.</td>
+    </tr>
+    <tr>
+      <td>01/02-22</td>
+      <td>Mikka køb februar</td>
+      <td>350 kr.</td>
+      <td>75 kr.</td>
+    </tr>
+    <tr>
+      <td>01/02-22</td>
+      <td>Mikka køb februar</td>
+      <td>350 kr.</td>
+      <td>75 kr.</td>
+    </tr>
+  </table>
+</section>
 
 <style>
   section {
     padding: var(--spacing-20);
     display: grid;
-    grid-gap: var(--spacing-40);
+    grid-gap: var(--spacing-20);
   }
   .kontooversigt {
     background-color: var(--grey);
@@ -152,5 +221,36 @@
 
   .ikonknapper h4 {
     margin: auto 2rem;
+  }
+
+  .periode {
+    display: flex;
+    gap: 9px;
+    margin-top: 3px;
+  }
+
+  .knap {
+    display: block;
+    margin: 0 auto;
+  }
+
+  table,
+  td,
+  th {
+    border: 1px solid white;
+    text-align: left;
+    background-color: var(--grey);
+    border-radius: var(--border-radius-sm);
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    font-weight: 100;
   }
 </style>
