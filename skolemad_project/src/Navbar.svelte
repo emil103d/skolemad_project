@@ -5,7 +5,7 @@
   import Bestil_mad from "./Bestil_mad.svelte";
   import Min_konto from "./Min_konto.svelte";
   import Tank_op from "./Tank_op.svelte";
-  let page = "forside";
+  let page = "bestilmad";
   export let open;
 </script>
 

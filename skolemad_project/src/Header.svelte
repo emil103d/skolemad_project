@@ -15,9 +15,6 @@
 <BigNav />
 
 <style>
-  .bignav {
-    display: none;
-  }
   div {
     margin-bottom: 2rem;
   }
@@ -26,12 +23,6 @@
     .hamburger,
     .navbar {
       display: none;
-    }
-  }
-
-  @media (min-width: 800px) {
-    .bignav {
-      display: block;
     }
   }
 </style>

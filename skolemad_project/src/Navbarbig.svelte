@@ -77,6 +77,9 @@
 </div>
 
 <style>
+  .bignav {
+    display: none;
+  }
   .toppart {
     background-color: var(--primary);
     display: flex;
@@ -117,5 +120,11 @@
     gap: 3rem;
     color: var(--sort);
     font-size: var(--font_b);
+  }
+
+  @media (min-width: 800px) {
+    .bignav {
+      display: block;
+    }
   }
 </style>
