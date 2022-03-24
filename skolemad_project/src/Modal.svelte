@@ -71,11 +71,6 @@
 </div>
 
 <style>
-  svg {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-  }
   #topModal {
     visibility: hidden;
     z-index: 9999;
