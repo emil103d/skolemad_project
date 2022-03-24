@@ -3,6 +3,7 @@
   import Navbar from "./Navbar.svelte";
   import BigNav from "./Navbarbig.svelte";
   import NavBarLogin from "./NavbarLogin.svelte";
+  let page = "forside";
   let open;
 </script>
 
@@ -11,6 +12,8 @@
 {#if open}
   <div><Navbar bind:open /></div>
 {/if}
+
+<NavBarLogin />
 
 <BigNav />
 
