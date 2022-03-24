@@ -72,6 +72,10 @@ onDestroy(()=>{
 </div>
 
 <style>
+
+  h1 {
+    padding-bottom: 1rem;
+  }
 	#topModal {
 		visibility: hidden;
 		z-index: 9999;
@@ -80,16 +84,15 @@ onDestroy(()=>{
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: #4448;
+		background: rgba(68, 68, 68, 0.849);
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 	#modal {
 		position: relative;
-		border-radius: 6px;
+		border-radius: var(--border-radius-sm);
 		background: white;
-    border: 2px solid #000;
 		filter: drop-shadow(5px 5px 5px #555);
 		padding: 1em;
 	}
