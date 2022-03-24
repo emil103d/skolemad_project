@@ -2,7 +2,7 @@
   import Primary_button from "./Components/Primary_button.svelte";
 </script>
 
-<body>
+
   <main>
     <!-- Section 1 -->
     <header class="section_1_forside">
@@ -69,7 +69,7 @@
         </div>
 
         <div>
-          <h4>Vælg skole & tilknyt børn</h4>
+          <h4>Opret bruger</h4>
           <p class="beskrivelse">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
@@ -100,7 +100,7 @@
         </div>
 
         <div>
-          <h4>Vælg madordning & betal</h4>
+          <h4>Vælg skole & tilknyt børn</h4>
           <p class="beskrivelse">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
@@ -125,7 +125,7 @@
         </div>
 
         <div>
-          <h4>Opret bruger</h4>
+          <h4>Vælg madordning & betal</h4>
           <p class="beskrivelse">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
@@ -133,7 +133,7 @@
       </div>
     </section>
   </main>
-</body>
+
 
 <style>
   header {
