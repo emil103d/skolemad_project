@@ -200,6 +200,7 @@
     background-color: var(--grey);
     border-radius: var(--border-radius-sm);
     padding: var(--spacing-20);
+    margin-bottom: var(--spacing-20);
   }
 
   .kontooversigt h3 {

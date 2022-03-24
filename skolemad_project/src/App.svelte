@@ -5,6 +5,7 @@
   import BestilMad from "./Bestil_mad.svelte";
   import TankOp from "./Tank_op.svelte";
   import MinKonto from "./Min_konto.svelte";
+  import Footer from "./Components/Footer.svelte";
   let page = "Forside";
   let open = false;
   function toggle() {
@@ -222,6 +223,8 @@
   <MinKonto />
 {/if}
 
+<Footer />
+
 <style>
   .topNav {
     position: fixed;
@@ -315,8 +318,7 @@
     font-size: 1.2rem;
   }
 
-  .sideNav ul li:hover,
-  .sideNav ul li:focus {
+  .sideNav ul li:hover {
     opacity: 80%;
   }
 
