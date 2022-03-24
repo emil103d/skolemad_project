@@ -62,6 +62,7 @@ body {
 section {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 5rem;
 }
 
 /* Skrift */
@@ -69,6 +70,7 @@ section {
 h1 {
   font-size: var(--font_h1);
   font-weight: 200;
+  padding-left: var(--spacing-20);
 }
 
 h2 {

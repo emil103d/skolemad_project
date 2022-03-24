@@ -3,7 +3,7 @@
 </script>
 
 <section>
-  <h2>Min konto</h2>
+  <h1>Tank op</h1>
   <div class="kontowrapper">
     <div class="kontooversigt">
       <h3>Kontooversigt</h3>

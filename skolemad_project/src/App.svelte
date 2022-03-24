@@ -315,9 +315,9 @@
     font-size: 1.2rem;
   }
 
-  .sideNav ul li a:hover,
-  .sideNav ul li a:focus {
-    border-bottom: 2px solid white;
+  .sideNav ul li:hover,
+  .sideNav ul li:focus {
+    opacity: 80%;
   }
 
   /* burger menu above - nav menu below */
