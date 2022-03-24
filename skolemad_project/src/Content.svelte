@@ -16,7 +16,13 @@
   let closed = false;
 
   const showPopup = () => {
-    open(Pop_up, { message: "It's a popup!" });
+    open(Pop_up, {
+      month: "FEBRUAR",
+      pris: "350kr.",
+      child1: "Frida",
+      child2: "Carlo",
+      total_pris: "350",
+    });
   };
 </script>
 
