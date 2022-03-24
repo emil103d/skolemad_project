@@ -1,8 +1,10 @@
 <script>
 	import Modal,{getModal} from './Modal_forside.svelte'
-	let name = 'world';
-	
+  import Bestil_mad from "./Bestil_mad.svelte";
+  import goto  from './Bestil_mad.svelte';
+
 	let selection
+  let page = "bestilmad";
 	
 	// Callback function provided to the `open` function, it receives the value given to the `close` function call, or `undefined` if the Modal was closed with escape or clicking the X, etc.
 	function setSelection(res){
@@ -15,6 +17,8 @@
 <button on:click={()=>getModal().open()}>
 	Opret ny bruger
 </button>
+
+<a class="btn" href="/#/bestil_mad">Sign Up</a>
 
 <!-- the modal without an `id` -->
 <Modal>
@@ -34,6 +38,12 @@
       name="efternavn"
     /><br /><br />
     <input
+    type="text"
+    id="Telefonnummer"
+    placeholder="Telefonnummer"
+    name="Telefonnummer"
+    /><br /><br />
+    <input
       type="text"
       placeholder="E-mail"
       id="e-mail"
@@ -41,13 +51,16 @@
     /><br /> <br />
     <input
       type="text"
-      id="Telefonnummer"
-      placeholder="Telefonnummer"
-      name="Telefonnummer"
+      id="password"
+      placeholder="Password"
+      name="password"
     /><br /><br />
-
-
-
+    <input
+      type="text"
+      id="gpassword"
+      placeholder="Gentag password"
+      name="gpassword"
+    /><br /><br />
 
   </form>
 
@@ -55,31 +68,30 @@
 
 
 	<!-- opening a model with an `id` and specifying a callback	 -->
-	<button on:click={()=>getModal('second').open(setSelection)}>
-		Open Nested Popup
+	<button on:click={() => (page = "Bestil_mad")}>
+		Opret 
 	</button>
-	{#if selection}
-	<p>
-		Your selection was: {selection}
-	</p>
-	{/if}
-</Modal>
 
-<Modal id="second">
-	Inner window
-	<!-- Passing a value back to the callback function	 -->
-	<button class="green" on:click={()=>getModal('second').close(1)}>
-		Select 1
-	</button>
-	<button class="green" on:click={()=>getModal('second').close(2)}>
-		Select 2
-	</button>
+  <button on:click={() => goto('./Bestil_mad.svelte')}>Sign Up</button>
+
+
 	
 </Modal>
+
+
+
 
 <style>
 	/* The content inside the modal can be styled as usual	 */
 	.green {
 		background: #0f0;
 	}
+
+  h1 {
+    padding-bottom: var(--spacing-20);
+  }
+
+  form {
+
+  }
 </style>
