@@ -1,6 +1,10 @@
 <script>
   import Primary_button from "./Components/Primary_button.svelte";
   import BigNav from "./Navbarbig.svelte";
+  import Pop_up_forside from "./Pop_up_forside.svelte";
+
+
+
 </script>
 
 <BigNav />
@@ -33,11 +37,14 @@
           /><br /><br />
         </form>
         <div class="login_bar">
+          
           <Primary_button type="secondary">Log Ind</Primary_button>
-          <a href="#/">Opret ny bruger</a>
+          <Pop_up_forside/>
         </div>
       </div>
     </article>
+
+    
   </header>
 
   <!-- Section 2 -->
