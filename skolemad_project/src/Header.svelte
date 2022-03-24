@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import Hamburger from "svelte-hamburgers";
   import Navbar from "./Navbar.svelte";
   import BigNav from "./Navbarbig.svelte";
@@ -13,10 +13,6 @@
   <div><Navbar bind:open /></div>
 {/if}
 
-<NavBarLogin />
-
-<BigNav />
-
 <style>
   div {
     margin-bottom: 2rem;
@@ -28,4 +24,4 @@
       display: none;
     }
   }
-</style>
+</style> -->
