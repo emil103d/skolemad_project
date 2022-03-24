@@ -18,8 +18,6 @@
 	Opret ny bruger
 </button>
 
-<a class="btn" href="/#/bestil_mad">Sign Up</a>
-
 <!-- the modal without an `id` -->
 <Modal>
 	<h1>Opret bruger</h1>
@@ -70,12 +68,7 @@
 	<!-- opening a model with an `id` and specifying a callback	 -->
 	<button on:click={() => (page = "Bestil_mad")}>
 		Opret 
-	</button>
-
-  <button on:click={() => goto('./Bestil_mad.svelte')}>Sign Up</button>
-
-
-	
+	</button>	
 </Modal>
 
 
