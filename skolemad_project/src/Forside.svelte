@@ -3,7 +3,6 @@
   import BigNav from "./Navbarbig.svelte";
 </script>
 
-<BigNav />
 <main>
   <!-- Section 1 -->
   <header class="section_1_forside">

@@ -1,66 +1,9 @@
 <script>
   import PrimaryButton from "./Components/Primary_button.svelte";
-  export let month;
-  export let pris;
-  export let total_pris;
-  export let child1;
-  export let child2;
-
-  import Pop_up1 from "./Pop_up.svelte";
-
-  // const { open } = getContext("simple-modal");
-
-  let opening = false;
-  let opened = false;
-  let closing = false;
-  let closed = false;
-
-  const showPopup1 = () => {
-    open(Pop_up1, {});
-  };
 </script>
 
 <article class="container">
-  <div class="title">
-    <h3>BESTIL: {month}</h3>
-    <p>Din saldo:{pris} kr.</p>
-  </div>
-  <div class="mini_container">
-    <h4>1. VÆLG</h4>
-    <div class="barn">
-      <p>{child1}</p>
-      <label class="switch">
-        <input type="checkbox" />
-        <span class="slider round" />
-      </label>
-    </div>
-    <div class="barn">
-      <p>{child2}</p>
-      <label class="switch">
-        <input type="checkbox" />
-        <span class="slider round" />
-      </label>
-    </div>
-    <div class="mini_container">
-      <h4>2. Pris</h4>
-      <p>Total {total_pris}</p>
-    </div>
-    <div class="mini_container">
-      <h4>3. Betaling</h4>
-      <div class="knapper">
-        <div class="knap">
-          <PrimaryButton type="primary">Mobilepay</PrimaryButton>
-        </div>
-        <div class="knap">
-          <PrimaryButton type="primary">Kontobetaling</PrimaryButton>
-        </div>
-        <p>Tank Konto op</p>
-      </div>
-    </div>
-    <div class="main_knap">
-      <button on:click={showPopup1}>BETAL OG BEKRÆFT</button>
-    </div>
-  </div>
+  <h2>Heeeeej</h2>
 </article>
 
 <style>

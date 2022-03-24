@@ -5,7 +5,7 @@
   import Bestil_mad from "./Bestil_mad.svelte";
   import Min_konto from "./Min_konto.svelte";
   import Tank_op from "./Tank_op.svelte";
-  let page = "bestilmad";
+  let page;
   export let open;
 </script>
 
@@ -45,7 +45,7 @@
   <Tank_op />
 {/if}
 
-<div class="bignav">
+<!-- <div class="bignav">
   <div class="toppart">
     <p>Opret Bruger</p>
     <p>Log ind</p>
@@ -59,8 +59,7 @@
       <p>Leverandør</p>
     </div>
   </div>
-</div>
-
+</div> -->
 <style>
   .navbar {
     font-size: var(--font_b);

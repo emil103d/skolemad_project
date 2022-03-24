@@ -1,4 +1,6 @@
 <script>
+  let page;
+  import Bestil_mad from "./Bestil_mad.svelte";
 </script>
 
 <div class="bignav">
@@ -6,6 +8,11 @@
     <a href="#/bestil_mad" on:click={() => (page = "bestilmad")}>Opret bruger</a
     >
     <a href="#/bestil_mad" on:click={() => (page = "bestilmad")}>Log ind</a>
+
+    {#if page === "bestilmad"}
+      <Bestil_mad />
+    {/if}
+
     <svg
       width="36"
       height="44"
