@@ -2,6 +2,7 @@
   import Button from "./Components/Primary_button.svelte";
 </script>
 
+<img src="img/madder.png" alt="" />
 <section>
   <h1>Tank op</h1>
   <div class="kontowrapper">
@@ -191,6 +192,11 @@
 </section>
 
 <style>
+  img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+  }
   section {
     padding: var(--spacing-20);
     display: grid;

@@ -160,7 +160,7 @@
     margin: 1rem;
   }
 
-  h2 {
+  /* h2 {
     margin: 1rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
@@ -168,8 +168,15 @@
 
   h3 {
     margin: 0;
+  } */
+
+  section {
+    padding: var(--spacing-20);
   }
 
+  h2 {
+    padding-bottom: var(--spacing-20);
+  }
   .oversigt {
     display: grid;
     grid-template-columns: repeat(1, 14rem);

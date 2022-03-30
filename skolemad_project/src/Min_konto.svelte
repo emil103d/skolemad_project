@@ -1,3 +1,4 @@
+<img src="img/madder.png" alt="" />
 <section>
   <h1>Min konto</h1>
 
@@ -123,19 +124,25 @@
 </section>
 
 <style>
-  h1 {
-    margin-left: var(--spacing-20);
+  img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
   }
   article {
     background-color: var(--grey);
     display: flex;
-    padding: var(--spacing-20);
     gap: 20px;
     border-radius: var(--border-radius-sm);
     justify-content: start;
     align-items: center;
     flex-direction: row-reverse;
     text-align: end;
+    padding: var(--spacing-20);
+  }
+
+  section {
+    padding: var(--spacing-20);
   }
 
   .article_container {
