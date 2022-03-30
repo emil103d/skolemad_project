@@ -170,5 +170,9 @@
       justify-content: space-evenly;
       text-align: center;
     }
+
+    section {
+      padding-bottom: var(--spacing-80);
+    }
   }
 </style>
